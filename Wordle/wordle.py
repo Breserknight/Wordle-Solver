@@ -60,7 +60,7 @@ with open("wordle.txt", "r") as f:
                 if leap(cur[2] and cur[1] >= 2): find_index += 1
                 find_index += cur[0]
 
-                p = find_index
+                p = find_index + 1
                 count = 1
 
                 for i in x:
